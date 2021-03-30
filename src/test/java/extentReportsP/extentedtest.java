@@ -48,7 +48,7 @@ public class extentedtest {
 		driver.findElement(By.id("nav-tags")).click();
 		String Title1 = driver.getTitle();
 		Assert.assertTrue(Title1.equals("Tags - Stack Overflow"));
-		Thread.sleep(2000);
+		Thread.sleep(7000);
 	}
 	
 	@Test
